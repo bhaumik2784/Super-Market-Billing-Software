@@ -1,15 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 from tkinter import *
 import math,random,os
 from tkinter import messagebox
-
-
-# In[2]:
 
 
 class Bill_App:
@@ -63,7 +57,7 @@ class Bill_App:
         
         self.cname=StringVar()
         self.cphone=StringVar()
-        x=random.randint(1000,9999)
+        x=random.randint(1000,99999)
         self.cbill=StringVar()
         self.cbill.set(str(x))
         self.search_bill=StringVar()
@@ -270,7 +264,6 @@ class Bill_App:
         self.textarea.insert(END,f"\n  Product\t\t       Qty\t\t  Price")
         self.textarea.insert(END,f"\n-------------------------------------------")
         
-        
     def bill_area(self):
         if self.cname.get()=="" or self.cphone.get()=="":                               #Validation.
             messagebox.showerror("Error","Customer Details must be filled!")
@@ -425,10 +418,6 @@ class Bill_App:
             self.root.destroy()
         else:
             return
-
-
-# In[3]:
-
 
 root=Tk()
 obj=Bill_App(root)
