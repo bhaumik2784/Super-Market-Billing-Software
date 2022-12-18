@@ -5,8 +5,10 @@ from tkinter import *
 import math,random,os
 from tkinter import messagebox
 
-
+#initializing all variables
+#creating frames, labels, buttons and enytries
 class Bill_App:
+    
     def __init__(self,root):                          # Constructor for the initiation of the Object of the Class.
         self.root=root
         self.root.geometry("1350x700+0+0")
@@ -253,7 +255,7 @@ class Bill_App:
                              self.grocery_tax+
                              self.drink_tax)
                             
-        
+    # bill area  
     def welcome_bill(self):
         self.textarea.delete('1.0',END)
         self.textarea.insert(END,"\tBROGRAMMERS Super Mart Retail\n")
@@ -264,6 +266,7 @@ class Bill_App:
         self.textarea.insert(END,f"\n  Product\t\t       Qty\t\t  Price")
         self.textarea.insert(END,f"\n-------------------------------------------")
         
+    
     def bill_area(self):
         if self.cname.get()=="" or self.cphone.get()=="":                               #Validation.
             messagebox.showerror("Error","Customer Details must be filled!")
@@ -331,7 +334,7 @@ class Bill_App:
             #self.textarea.config(state=DISABLED)      # To make the Textarea uneditable.
             self.save_bill()
             
-            
+    # save bill function will be called by save button
     def save_bill(self):
         op=messagebox.askyesno("Save Bill","Do you wish to save the Bill!")
         if op>0:
