@@ -10,5 +10,5 @@ This project was a team effort by a group of 6 students from Bennett University.
 ###### S V Sai Bhaumik Reddy - [Github](https://github.com/bhaumik2784) | [LinkedIn](https://www.linkedin.com/in/s-v-sai-bhaumik-reddy-2a3239237/) 
 ###### Shuaib Ahmed Shaikh - [Github](https://github.com/Shuaib777) | [LinkedIn](https://www.linkedin.com/in/shuaib-ahmed-shaikh-7b2aa5251/)
 ###### Yash Jajodia - [Github](https://github.com/Brogrammers-Yash) | [LinkedIn](https://www.linkedin.com/in/yash-jajodia-1310b825b/) 
-###### Pratyush Rathore - [LinkedIn](https://www.linkedin.com/in/pratyush-rathore-09807620a/)
-###### Hardik Sanjay Parmar - [LinkedIn](https://www.linkedin.com/in/hardik-parmar-48906925b)
+###### Pratyush Rathore - [Github](https://github.com/XxPratyushxX) | [LinkedIn](https://www.linkedin.com/in/pratyush-rathore-09807620a/)
+###### Hardik Sanjay Parmar - [Github](https://github.com/hardik4603) | [LinkedIn](https://www.linkedin.com/in/hardik-parmar-48906925b)
